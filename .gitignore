@@ -1,0 +1,36 @@
+# Compiled binaries
+*.exe
+*.deb
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# CUDA compiled
+*.cubin
+*.ptx
+*.fatbin
+
+# Build directories
+build/
+bin/
+
+# Editor/IDE
+.vscode/
+.idea/
+.clangd
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Specific binaries (no extension) - use full paths to avoid matching source files
+ch-02/hello_world/hello
+ch-02/vec_add/vec_add
+ch-02/vec_add/vecadd
+ch-02/reverse_array/reverse_array
+ch-02/reverse_array/reversearray
